@@ -1,0 +1,161 @@
+
+
+body,head {
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+ }
+ .header {
+    padding-top: 20px;
+    display: flex;
+    
+    justify-content: space-between;
+    
+    }
+
+
+.header_text_left {
+    display: flex;
+    width: auto;
+    height: 30px;
+    justify-self: flex-start;
+    color: #f9faf8;
+    font-size: 20px;
+    padding-left: 75px;
+    font-weight: 800;
+}
+
+.block_1 {
+    margin-top: 50px;
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+}
+
+.blockimg1 {
+    
+    width: 400px;
+    height: auto;
+    
+}
+
+.blocktext1 {
+    width: 300px;
+    height: auto;
+}
+
+.greycolor {
+    background-color: #1F2937;
+}
+
+.headertext {
+    display: flex;
+    height: 10px;
+    width: 300px;
+    gap: 20px;
+    
+            
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.bigtext,.smalltext {
+    color: white;
+}
+
+.bigtext {
+    font-size: 40px;
+    font-weight: 700;
+    color: #f9faf8;
+    padding-bottom: 10px;
+}
+
+.smalltext {
+    font-size: 14px;
+    color: #e5e7eb;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    border: none;
+
+}
+
+.block_1 button,.bottom_button button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.block_2 {
+    display : flex;
+    justify-content: space-evenly;
+    
+}
+.img1,.img2,.img3 {
+    width: 200px;
+    height: auto;
+    
+    flex-wrap: wrap;
+    align-items: 
+}
+
+.block2 img {
+    width: 200px;
+    height: auto;
+}
+
+.bottom_quote {
+      
+    background-color: #e5e5eb;
+    height: 130px;
+    }
+
+h3 {
+
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bottom_quote h3 {
+    padding-top: 21px;
+}
+
+
+h4 {
+    text-align: right;
+    padding-right: 250px;
+}
+
+
+.bottom_container {
+    display: flex;
+    justify-content: center;
+}
+.bottom_button {
+    
+    display: flex;
+    justify-content: space-evenly;;
+    background-color: #3882f6;
+    color: white;
+    height: 40px;
+    width: 600px;
+    padding-top: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+}
